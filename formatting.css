@@ -1,0 +1,87 @@
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.clusterNav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonCluster {
+  display: flex;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cardRow {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.clusterCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/*newspaper stuff */
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  justify-items: center;
+}
+.col1{
+  display: flex;
+  flex-direction: column;
+}
+.col2{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.col3{
+  display: flex;
+  flex-direction: column;
+}
+
+.complexGallery {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-flow: dense;
+}
+
+.wide {
+  grid-column: span 5;
+}
+
+.tall {
+  grid-row: span 2;
+}
+
+.huge {
+  grid-column: span 3;
+  grid-row: span 3;
+}
+
+/*pinterest stuff  */
+.pinterest{
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: start;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
